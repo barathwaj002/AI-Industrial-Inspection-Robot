@@ -1,0 +1,13 @@
+streamlit
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+Pillow
+opencv-python-headless
+matplotlib
+python-docx
+torch
+torchvision
+catboost

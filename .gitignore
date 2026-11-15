@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment and secrets
+.env
+.streamlit/secrets.toml
+
+# Generated inference outputs
+vision_inference_results/
+vibration_inference_results/
+multimodal_results/
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
