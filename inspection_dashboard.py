@@ -2224,6 +2224,11 @@ if selected_page == "02 | Prediction of Given Data":
             st.markdown(
                 f"**Result:** {vision_prediction}"
             )
+            vision_error = report.get("errors", {}).get("vision")
+
+            if vision_error:
+               st.error("Vision AI failed:")
+               st.code(str(vision_error))
 
             if vision.get("ensemble_score") is not None:
 
