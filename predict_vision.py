@@ -34,7 +34,6 @@ ROOT = Path(__file__).resolve().parent
 PACKAGE_PATH = (
     ROOT
     / "vision_patchcore_v6_results"
-    / "run_20261021_211025"
     / "v6_model_package.joblib"
 )
 
